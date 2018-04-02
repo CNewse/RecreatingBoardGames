@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="Resources/Styles/style.css">
     <meta charset = "UTF-8">
     <title> Game: Snakes and ladders </title>
-    <script> </script>
+    <script src = "../Resources/Common/DiceRoll.js"> </script>
 </head>
 <body>
     <h1> SNAKES AND LADDERS </h1>
@@ -14,9 +14,10 @@
     </board>
 
     <dice_area>
-        <button>
-            Roll the Dice
+        <button onclick = "SingleRoll()">
+            Roll
         </button>
+        <p id = "DiceRoll"></p>
     </dice_area>
 </body>
 </html>
