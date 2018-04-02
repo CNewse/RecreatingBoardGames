@@ -4,6 +4,6 @@ function SingleRoll() {
 }
 
 function DoubleRoll() {
-    var DoubleRoll = (Math.floor((Math.random() * 6) + 1) + (Math.floor((Math.random() * 6) + 1);
+    var DoubleRoll = (Math.floor((Math.random() * 6) + 1) + Math.floor((Math.random() * 6) + 1));
     document.getElementById("DoubleRoll").innerHTML = DoubleRoll;
 }
